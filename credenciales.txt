@@ -1,0 +1,40 @@
+Para probar el sistema puede usar las siguientes cuentas para evaluar los distintos roles:
+
+---------------------------------------------------
+
+SUPERADMINISTRADOR:
+
+Email:      superadmin@gonzaltech.com
+Contraseña: admin123
+Rol:        Superadministrador (ID: 1)
+
+Acceso total al sistema. Puede gestionar productos y usuarios. 
+Solo el SuperAdmin puede ver el menú "Gestionar Usuarios".
+El SuperAdmin no puede ser eliminado (protección del sistema).
+---------------------------------------------------
+
+ADMINISTRADOR:
+
+Email:      admin@gonzaltech.com
+Contraseña: admin123
+Rol:        Administrador (ID: 2)
+
+Puede gestionar productos pero NO puede gestionar usuarios.
+No tiene acceso al menú "Gestionar Usuarios".
+---------------------------------------------------
+
+USUARIO (Cliente 1):
+
+Email:      agustin@correo.com
+Contraseña: agustin123
+Rol:        Usuario (ID: 3)
+
+USUARIO (Cliente 2):
+
+Email:      alejandro@correo.com
+Contraseña: alejandro123
+Rol:        Usuario (ID: 3)
+
+Pueden navegar en el catálogo, agregar productos al carrito, 
+realizar compras y ver su historial de compras.
+---------------------------------------------------
